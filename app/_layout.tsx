@@ -11,6 +11,10 @@ export default function RootLayout() {
 				name="onboarding"
 				options={{ headerShown: false, animation: "fade" }}
 			/>
+			<Stack.Screen
+				name="new"
+				options={{ presentation: "modal", title: "New plant" }}
+			/>
 		</Stack>
 	);
 }
