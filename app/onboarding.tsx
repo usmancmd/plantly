@@ -23,7 +23,7 @@ export default function OnboardingScreen() {
 			<StatusBar style="light" />
 			<View>
 				<Text style={styles.heading}>Plantly</Text>
-				<Text style={styles.tagline}>Keep your palnt healthy and hydrated</Text>
+				<Text style={styles.tagline}>Keep your plant healthy and hydrated</Text>
 			</View>
 			<PlantlyImage />
 			<PlantlyButton title="Let me in!" onPress={handlePress} />
